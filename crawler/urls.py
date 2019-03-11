@@ -18,5 +18,5 @@ from django.urls import path
 import crawling.views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('crawl/', crawling.views.home, name='home'),
+    path('', crawling.views.home, name='home'),
 ]
